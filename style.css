@@ -392,22 +392,24 @@
     display:block;
   }
 }
-/* footer */
+/* FOOTER */
 footer{
   background-color:var(--dark);
 opacity:100%;
-padding:1.5rem;
+padding:1rem;
 }
 footer .footer__wrapper{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  padding-bottom:0.5rem;
 }
 footer .footer__social{
   display:flex;
   flex-direction:row;
   justify-content:center;
-  gap:3rem;
+  gap:3.5rem;
+  padding-top:7px;
 }
 footer .footer__social i{
   color:var(--light);
@@ -420,7 +422,7 @@ footer .footer__wrapper p{
     display:flex;
     flex-direction:column;
     gap:1.5rem;
-    padding-top:3rem;
+    padding-top:2rem 0;
   }
   footer .footer__wrapper img{
     display:flex;
