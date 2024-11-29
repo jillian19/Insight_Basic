@@ -529,7 +529,7 @@ footer .footer__wrapper p{
   flex-direction:column;
   justify-content: space-between;
   margin: 10rem;
-  align-items:center;
+  font-size: 25px;
 }
 .packages .packages__text h2{
   font-size:10rem;
@@ -553,7 +553,7 @@ footer .footer__wrapper p{
   width:15rem;
 }
 .packages li{
-  height:4rem;
+  height:6rem;
   list-style-type: disc;
 }
 @media screen and (max-width:500px){
